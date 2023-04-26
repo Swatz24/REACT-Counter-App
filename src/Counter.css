@@ -1,0 +1,57 @@
+button {
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+}
+
+.inc {
+  background-color: rgb(111, 245, 111);
+  border: none;
+  color: black;
+  font-size: 30px;
+}
+
+.dec {
+  background-color: rgb(247, 120, 120);
+  border: none;
+  font-size: 30px;
+  color: black;
+}
+.dec:disabled {
+  background-color: rgb(247, 192, 192);
+  color: white;
+}
+
+.reset {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+
+.reset:disabled {
+  background-color: rgb(195, 220, 228);
+  color: white;
+}
+.heading,
+.card,
+.counter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: xx-large;
+  margin-top: 25px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.counter {
+  font-size: larger;
+  margin-top: 20px;
+  font-size: 30px;
+}
